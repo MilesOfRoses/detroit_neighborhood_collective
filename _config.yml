@@ -1,3 +1,3 @@
 markdown: redcarpet
-baseurl: /detroit_neighborhood_collective/
+baseurl: /detroit_neighborhood_collective
 exclude: ['README.md']

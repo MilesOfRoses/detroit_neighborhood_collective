@@ -1,0 +1,222 @@
+
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+
+
+html {
+	margin: 0;
+	padding: 0;
+	font: normal 100%/1.4 Georgia,serif;
+	background: url("../images/background-texture-compressed.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.wrapper {
+	max-width: 880px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -15px;
+}
+
+/********************* HEADER STUFF UNDER HERE *************************/
+
+header {
+	background: -webkit-linear-gradient(top, rgba(50,20,0,0.07), rgba(50,20,0,0.5)); /* For Safari 5.1 to 6.0 */
+}
+
+#title{
+	margin-bottom: 40px;
+}
+
+header h1 {
+	color: #ffb400;
+	font-family: 'Allerta Stencil', sans-serif;
+	font-weight: normal;
+	font-size: 60px;
+	text-align: center;
+}
+
+.header-bar {
+	height: 12px;
+	background-color: rgba(55,12,0,0.65);
+}
+
+
+/********************* NAV STUFF UNDER HERE *************************/
+.promotion {
+	text-align: center;
+}
+
+.current {
+	text-shadow: 1px 1px 1px #000, 0px -1px 15px #fff,  0px 1px 15px #fff;;
+}
+
+nav li {
+	display: inline-block;
+	padding-right: 35px;
+	font-family: georgia;
+	font-size: 20px;
+}
+
+nav a{
+	  text-decoration: none;
+	  color: #ffde8c;
+	  text-shadow: 2px 1px 2px #000;
+}
+nav ul {
+	margin-top:5px;
+	padding-top:5px;
+
+}
+
+nav {
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	margin-top: -40px;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+	height: 30px;
+	background: -webkit-linear-gradient(left, rgba(55,12,0,0) 0%,rgba(55,12,0,0.55) 9%,rgba(55,12,0,0.55) 88%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+}
+
+/********************* HOME PAGE STUFF UNDER HERE *************************/
+
+.home-image{
+	width: 880px;
+}
+
+.textbox-bar {
+	height: 12px;
+	background-color: rgba(55,12,0,0.75);
+}
+
+.textbox {
+	background: -webkit-linear-gradient(top, rgba(50,20,0,.5), rgba(50,20,0,0.9)); /* For Safari 5.1 to 6.0 */
+	margin-top: -200px;
+	position: relative;
+}
+
+.textbox h1, .menu-textbox h1 {
+	text-align: center;
+	color: #ffde8c;
+	font-weight:normal;
+	margin-bottom: 5px;
+	margin-top: 15px;
+}
+
+.textbox p {
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffde8c;
+	line-height: 200%;
+	word-spacing: 2.5px;
+}
+
+.social-icons {
+	text-align: center;
+	list-style-type: none;
+	margin-right: 40px;
+}
+
+.social-icons li{
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.social-icons img{
+	width: 50px;
+}
+
+/********************* ABOUT PAGE STUFF UNDER HERE *************************/
+
+.about-page .textbox, .location-page .textbox {
+	background: -webkit-linear-gradient(top, rgba(50,20,0,.6), rgba(50,20,0,0.9)); /* For Safari 5.1 to 6.0 */
+	margin-top: -15px;
+	margin-bottom: -15px;
+}
+
+.about-page {
+	color: #ffde8c;
+}
+
+/********************* MENU GALLERY STUFF UNDER HERE *************************/
+
+.menu-textbox {
+	background: -webkit-linear-gradient(top, rgba(50,20,0,.5), rgba(50,20,0,0.9));
+	height:180px;
+	margin-top: -120px;
+	position: relative;
+}
+
+.menu-item {
+	padding-top: 15px;
+}
+
+.menu-item .textbox-bar {
+	margin-bottom: -12px;
+	position: relative;
+}
+
+.bottom {
+	margin-bottom: -50px;
+	position: relative;
+}
+
+.menu-textbox p {
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffde8c;
+	line-height: 160%;
+	word-spacing: 2.5px;
+	margin-top: 5px;
+}
+
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap:   15px;
+  -moz-column-count:    2;
+  -moz-column-gap:      15px;
+  column-count:         2;
+  column-gap:           15px;  
+}
+
+#photos .menu-item img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+#photos{
+  display:inline-block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+  @media (max-width: 635px) {
+   #photos {
+   -moz-column-count:    1;
+   -webkit-column-count: 1;
+    column-count:        1;
+   }
+  }
+  /********************* FOOTER STUFF UNDER HERE *************************/
+
+  footer .textbox{
+  	margin-top: 15px;
+	text-align: center;
+	height: 50px;
+  }
+
+  footer a {
+  	color: #ffde8c;
+  	margin-top: 10px;
+  }
+
+  #credit {
+  	text-decoration: none;
+  }

@@ -130,6 +130,8 @@ nav {
 	width: 50px;
 }
 
+
+
 /********************* ABOUT PAGE STUFF UNDER HERE *************************/
 
 .about-page .textbox, .location-page .textbox {
@@ -220,3 +222,7 @@ nav {
   #credit {
   	text-decoration: none;
   }
+
+  a#forum {
+	color: blue;
+}
